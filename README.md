@@ -175,15 +175,15 @@ These leave forensic evidence. LEPAD requires NO registry modifications - only f
 ---
 
 ## ProcMon Evidence
-
+```
 01:03:12,5745785  cmd.exe /c "gbhzswmmk.exe"
 01:03:12,7953784  gbhzswmmk.exe → whykumqprf.exe
 01:03:13,2438736  whykumqprf.exe → iujrusq.exe
 01:03:13,7323235  iujrusq.exe → rambrnzkt.exe
 01:03:14,6479618  rambrnzkt.exe → cmd.exe /c "ImportantUpdate.bat"
 01:03:15,8327159  powershell.exe -WindowStyle Hidden -EncodedCommand "..."
-
-No Defender alerts. No registry changes. Complete stealth.
+```
+**No Defender alerts. No registry changes. Complete stealth.**
 
 ---
 
@@ -191,29 +191,29 @@ No Defender alerts. No registry changes. Complete stealth.
 
 | Command | Description |
 |---------|-------------|
-| help | Show available commands |
-| list | List active reverse shells |
-| interact <id> | Interact with a specific session |
-| kill <id> | Terminate a session |
-| killall | Terminate all sessions |
-| exit | Shutdown server |
+| `help` | Show available commands |
+| `list` | List active reverse shells |
+| `interact <id>` | Interact with a specific session |
+| `kill <id>` | Terminate a session |
+| `killall` | Terminate all sessions |
+| `exit` | Shutdown server |
 
 ### Interactive Session Commands
 
 | Command | Description |
 |---------|-------------|
-| <any command> | Execute PowerShell command on target |
-| back | Return to main menu |
-| exit | Terminate session |
+| `<any command>` | Execute PowerShell command on target |
+| `back` | Return to main menu |
+| `exit` | Terminate session |
 
 ---
 
 ## Important Notes
 
-- Educational purpose only - This tool is for authorized security testing
-- Windows 10: ``write.exe`` exists natively in C:\Windows\System32\
-- Windows 11: ``write.exe`` must be copied from Windows 10 (the binary itself is portable)
-- Network: Ensure firewall allows ports 4444 (HTTP) and 5555 (TCP)
+- **Educational purpose only - This tool is for authorized security testing**
+- **Windows 10: ``write.exe`` exists natively in C:\Windows\System32\**
+- **Windows 11: ``write.exe`` must be copied from Windows 10 (the binary itself is portable)**
+- **Network: Ensure firewall allows ports 4444 (HTTP) and 5555 (TCP)**
 
 ---
 
