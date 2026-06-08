@@ -2,7 +2,6 @@
 
 **Matryoshka Bleed is a stealth C2 framework leveraging LEPAD (Legacy Parameter Descent) - a novel technique for argument propagation through patched Windows binaries. Achieves reverse shell with zero registry changes and full Windows Defender bypass.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-blue.svg)](https://microsoft.com/windows)
 
@@ -232,10 +231,4 @@ Python 3.8+ on both attacker and target machines.
 
 ---
 
-## License
-
-MIT License
-
----
-
-For security researchers and red teamers only. Use responsibly.
+*For security researchers and red teamers only. Use responsibly.*
