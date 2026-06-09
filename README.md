@@ -175,12 +175,11 @@ These leave forensic evidence. LEPAD requires NO registry modifications - only f
 
 ## ProcMon Evidence
 ```
-01:03:12,5745785  cmd.exe /c "gbhzswmmk.exe"
-01:03:12,7953784  gbhzswmmk.exe → whykumqprf.exe
-01:03:13,2438736  whykumqprf.exe → iujrusq.exe
-01:03:13,7323235  iujrusq.exe → rambrnzkt.exe
-01:03:14,6479618  rambrnzkt.exe → cmd.exe /c "ImportantUpdate.bat"
-01:03:15,8327159  powershell.exe -WindowStyle Hidden -EncodedCommand "..."
+01:03:12,5745785  cmd.exe /c "gbhzswmmk.exe /c whoami"
+01:03:12,7953784  gbhzswmmk.exe → "whykumqprf.exe /c whoami"
+01:03:13,2438736  whykumqprf.exe → "iujrusq.exe /c whoami"
+01:03:13,7323235  iujrusq.exe → "rambrnzkt.exe /c whoami"
+01:03:14,6479618  rambrnzkt.exe → "cmd.exe /c whoami"
 ```
 **No Defender alerts. No registry changes. Complete stealth.**
 
